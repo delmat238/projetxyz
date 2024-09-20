@@ -11,7 +11,7 @@ services:
       - 'host.docker.internal:host-gateway'
     ports:
       - '80:80'
-      - '5173:5173'
+#      - '5173:5173'
     environment:
       XDEBUG_MODE: 'coverage'
       IGNITION_LOCAL_SITES_PATH: '${PWD}'
